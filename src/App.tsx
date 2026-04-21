@@ -50,10 +50,21 @@ const App: React.FC = () => {
       </header>
       <main>
         <div className="contentWrapper">
-
+          
           <FadeContent active={activeContent === "home"}>
-            <h2>Homepage</h2>
-            <p>Wellcome to my unique car blogsite!</p>
+            <div className='landing'>
+
+              <div className='triangle tri_u'><img src="https://laitserallypark.ee/wp-content/uploads/2023/08/muuseum23-scaled.jpg"/></div>
+
+              <div className='triangle tri_d'><img src="https://laitserallypark.ee/wp-content/uploads/2023/08/muuseum25-scaled.jpg"/></div>
+
+              <div className='triangle tri_u'><img src="https://hips.hearstapps.com/toc.h-cdn.co/assets/16/14/1459816624-1954-mercedes-300sl-gullwing-a.jpg"/></div>
+
+              <div className='triangle tri_d'><img src="https://hips.hearstapps.com/toc.h-cdn.co/assets/16/18/4000x3117/1972-detomaso-pantera-a.jpg"/></div>
+
+              <div className='triangle tri_u'><img src="https://hips.hearstapps.com/toc.h-cdn.co/assets/16/18/2048x1361/dodge-viper-gts.jpeg"/></div>
+           </div>
+           <div className='landing card'><p>Check cars in gallery and feel free to leave a comment about the one you like. Comments can be read at the comments section.</p></div>
           </FadeContent>
 
           <FadeContent active={activeContent === "gallery"}>

@@ -15,6 +15,7 @@
 
 .post-item img {
     max-block-size: 100px;
+    transition: transform 1s ease;
 }
 
 .post-item span {
@@ -29,10 +30,6 @@
     color: gold;
 }
 
-img {
-    transition: transform 1s ease;
-}
-
-img:hover {
+.post-item img:hover {
     transform: translateX(150%) scale(4);
 }

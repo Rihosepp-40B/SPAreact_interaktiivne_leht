@@ -3,3 +3,31 @@
     margin-top: 20px;
     min-height: 100px;
 }
+
+.triangle {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+}
+
+.triangle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tri_u {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin: -50px 0;
+}
+
+.tri_d {
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    margin: 0 -50px;
+}
+
+.landing {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
