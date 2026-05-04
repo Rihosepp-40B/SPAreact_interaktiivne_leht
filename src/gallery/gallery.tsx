@@ -11,7 +11,7 @@ type GalleryProps = {
   setCurrent: React.Dispatch<React.SetStateAction<number>>;
 };
 
-export const pictures: Picture [] = [  // Muutuja üilt mis kasutab yype Pictures'i kui järjendit, mis võrdub järjendis olevad pildid
+export const pictures: Picture [] = [  // Muutuja pilt mis kasutab type Pictures'i kui järjendit, mis võrdub järjendis olevad pildid
     { id: 1, src: "https://www.classicandsportscar.com/sites/default/files/styles/slideshow_slide/public/2018-03/01_designers_favourite_cars_mercedes_300sl.png"},
     { id: 2, src: "https://www.classicandsportscar.com/sites/default/files/styles/slideshow_slide/public/2018-03/12_designers_favourite_cars_lamborghini_countach.png"},
     { id: 3, src: "https://www.classicandsportscar.com/sites/default/files/styles/slideshow_slide/public/2018-03/11_designers_favourite_cars_dino_206s.png"},
